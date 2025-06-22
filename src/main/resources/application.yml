@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: k8s-api-gateway
+  profiles:
+    active: local
