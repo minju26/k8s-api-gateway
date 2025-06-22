@@ -27,10 +27,10 @@ pipeline {
     }
 
     environment {
-        GIT_URL = "https://github.com/solarhc/kube-api-gateway.git"
+        GIT_URL = "https://github.com/minju26/kube-api-gateway.git"
         GITHUB_CREDENTIAL = "github-token"
         ARTIFACTS = "build/libs/**"
-        DOCKER_REGISTRY = "solarhc"
+        DOCKER_REGISTRY = "alswn26"
         DOCKERHUB_CREDENTIAL = 'dockerhub-token'
     }
 
